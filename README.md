@@ -29,7 +29,7 @@ ARIMA (déterminer les trends et évenements)
 L’application sera accessible pour les utilisateurs via un site web.
 
 ## Rapport
-Pour plus de détail voir rapport et présentation. Une démonstration est disponible en vidéo.
+Pour plus de détail voir rapport et présentation. Une démonstration est disponible en vidéo youtube ici : https://youtu.be/bj40BT9EC3Y
 
 ## Auteur
 - Martin Guilbert Lejeune (mguilbertlejeune@gmail.com)
