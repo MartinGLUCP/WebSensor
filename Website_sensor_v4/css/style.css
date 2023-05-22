@@ -1,0 +1,335 @@
+
+
+#menu li:hover{
+	text-decoration: none;
+	background-color:#e7f9fc;
+}
+
+#menu a:hover{
+	color: black;
+}
+
+#menu li{
+	display: inline-block;
+	border-width: 1px;
+	padding: 1%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+#menu li a{
+	color: white;
+	text-decoration:none;
+}
+
+/*Css pour header*/
+body {
+
+	color:black;
+	font-family :"Lato",sans-serif ;
+	background-color:white;
+	background-repeat:no-repeat;
+}
+
+h1{
+	color:red;
+}
+
+
+.header {
+	background-color: #e7f9fc;
+	height: 100% ;
+}
+
+.index_section{
+
+	width : 98%;
+	height : 100%;
+	margin-left : 1%;
+	margin-right : 1%;
+}
+
+
+.ban img {
+
+	background-position:50%;
+	margin-top: 0;
+	margin-left : 23%;
+	margin-bottom: 5%;
+}
+
+.ban-cat img {
+
+	background-position:50%;
+	width : 100%;
+	height : 100%;
+	display:block;
+
+}
+
+.inner-banner {
+	color: #FFFEFF ;
+	position: absolute;
+	width: 100% ;
+	top: 25%;
+	left: 15% ;
+
+}
+
+
+.copyright{
+
+	margin-top : 3%;
+	color : black;
+	background-color : #E6E6E6;
+	text-align : center;
+
+}
+
+
+
+.logo img{
+
+	margin-top : 1%;
+	width:50px;
+	height:50px;
+
+}
+
+
+.footer_section{
+
+	margin-left : 1%;
+	margin-top : 3%;
+
+}
+
+.souligne{
+	text-decoration:underline;
+}
+
+.bordure{
+	border:1px solid;
+	padding:5px;
+}
+
+.contrat{
+
+	border:1px solid;
+	padding:5px;
+	overflow:scroll;
+	height:200px;
+
+}
+
+.editer_section{
+
+	width : 45%;
+	height : 45%;
+	margin-left : 25%;
+	margin-right : 25%;
+
+}
+
+.logo-pdf{
+
+	width:80px;
+	height:80px;
+
+}
+
+.connect_section{
+	width : 45%;
+	height : 45%;
+	margin-left : 25%;
+	margin-right : 25%;
+	margin-top: 3%;
+}
+
+/*Connection css*/
+
+.connect_section{
+	width : 45%;
+	height : 45%;
+	margin-left : 25%;
+	margin-right : 25%;
+	margin-top: 3%;
+}
+
+
+.box{
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px;
+  background-color: #eaab00; /* gold */
+  /* Single pixel data uri image http://jsfiddle.net/LPxrT/
+  /* background-image: gold, gold, */
+  background-image: url('data:image/gif;base64,R0lGODlhAQABAPAAAOqrAP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=='),  url('data:image/gif;base64,R0lGODlhAQABAPAAAOqrAP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw=='),
+url('data:image/gif;base64,R0lGODlhAQABAPAAAP///////yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==');
+  background-repeat: no-repeat;
+  background-size: 0 2px, 0 100%, 0% 2px;
+  background-position: top center, top center, bottom center;
+  -webkit-animation: drawBorderFromCenter 4s;
+}
+/* Chrome, Safari, Opera */
+@-webkit-keyframes drawBorderFromCenter {
+    0% {
+      background-size: 0 4px, 0 100%, 100% 100%;
+    }
+    20% {
+      background-size: 100% 2px, 100% 0, 100% 100%;
+    }
+    66%
+    {
+      background-size: 100% 2px, 100% 98%, 100% 100%;
+    }
+    99%
+    {
+      background-size: 100% 2px, 100% 98%, 0 2px;
+    }
+}
+
+.content{
+  background-color: #34495E;
+  padding: 2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container{
+		width: 100px;
+		height: 400px;
+		text-align: center;
+		background-color: #34495E;
+		border-radius: 4px;
+		margin: 0 auto;
+		margin-top : 100px;
+}
+
+.content img{
+		width: 120px;
+		height: 120px;
+		margin-top: -85px;
+		margin-bottom: 30px;
+}
+
+.content input[type="email"], .content input[type="password"], .content input[type="text"]{
+		height: 40px;
+		width: 250px;
+		font-size: 18px;
+		margin-bottom: 20px;
+		background-color: #fff;
+		padding-left: 30px;
+		margin-top: 2%;
+}
+
+.form-input::before{
+	content: "\f007";
+	position: absolute;
+	font-family: "FontAwesome";
+	padding-left: 5px;
+	padding-top: 20px;
+	font-size: 25px;
+}
+
+.form-input2::before{
+	content: "\f023";
+	position: absolute;
+	font-family: "FontAwesome";
+	padding-left: 5px;
+	padding-top: 20px;
+	font-size: 25px;
+}
+
+.btn-login{
+	padding: 15px 30px;
+	color: #fff;
+	border-radius: 4px;
+	border: none;
+	background-color: #2ECC71;
+	border-bottom: 4px solid #27AE60;
+}
+
+/*Registration css*/
+
+.registre_section{
+	width : 45%;
+	height : 45%;
+	margin-left : 25%;
+	margin-right : 25%;
+	margin-top: 3%;
+	
+}
+.registre_section h2{
+		text-align: center;
+}
+
+@keyframes bg {
+    0% {
+        background-size:    0 3px,
+                            3px 0,
+                            0 3px,
+                            3px 0;
+    }
+    25% {
+        background-size:    100% 3px,
+                            3px 0,
+                            0 3px,
+                            3px 0;
+    }
+    50% {
+        background-size:    100% 3px,
+                            3px 100%,
+                            0 3px,
+                            3px 0;
+    }
+    75% {
+        background-size:    100% 3px,
+                            3px 100%,
+                            100% 3px,
+                            3px 0;
+    }
+    100% {
+        background-size:    100% 3px,
+                            3px 100%,
+                            100% 3px,
+                            3px 100%;
+    }
+}
+
+
+div.box2 {
+   
+    margin: 2rem auto;
+    padding: 2em;
+    
+    background-repeat: no-repeat;
+    background-image:   linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%),
+                        linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%),
+                        linear-gradient(to right, #C9C9C9 100%, #C9C9C9 100%),
+                        linear-gradient(to bottom, #C9C9C9 100%, #C9C9C9 100%);
+    background-size:    100% 3px,
+                        3px 100%,
+                        100% 3px,
+                        3px 100%;
+    background-position:    0 0,
+                            100% 0,
+                            100% 100%,
+                            0 100%;
+    animation: bg 1.25s cubic-bezier(0.19, 1, 0.22, 1) 1;
+    animation-play-state: paused;
+}
+
+div.box2:hover {
+    animation-play-state: running;
+}
+
+.form-input3::before{
+	content: "\f1fa";
+	position: absolute;
+	font-family: "Lato",sans-serif ;
+	padding-left: 5px;
+	padding-top: 20px;
+	font-size: 25px;
+}
+
